@@ -70,7 +70,7 @@ namespace UnityTemplateProjects
         [Tooltip("Whether or not to invert our Y axis for mouse input to rotation.")]
         public bool invertY = false;
 
-        public bool inventory = true;
+        public bool inventory = false;
 
         void OnEnable()
         {
