@@ -8,12 +8,12 @@ public class CharacterControls : MonoBehaviour {
  
 	public float speed = 10.0f;
 	public float gravity = 10.0f;
-	public float maxVelocityChange = 10.0f;
+	public float maxVelocityChange = 5.0f;
 	public bool canJump = true;
 	public float jumpHeight = 2.0f;
 	private bool grounded = false;
 	private bool inventory = false;
-	public float mouseSensitivity = 100.0f;
+	public float mouseSensitivity = 400.0f;
     public float clampAngle = 80.0f;
     private float rotY = 0.0f; // rotation around the up/y axis
     private float rotX = 0.0f; // rotation around the right/x axis 
